@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# This shell script can help you test exit codes and getting killed by a signal.
+
+case "$1" in
+    -*)
+        kill "$1" $$
+        ;;
+    [0-9]*)
+        exit "$1"
+        ;;
+    *)
+        exit 0
+esac
