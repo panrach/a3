@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include "byos.h"
 
-int main(void)
-{
-  int r;
-
+int test1() {
   // {
   //   echo A
   //   { ls -l ; echo B > f1 ; cat f1 ; } > f2
@@ -45,8 +42,15 @@ int main(void)
     .type = LIST,
     .data = { .list = { 3, outerarray } }
   };
+  return interp(&example1);
+}
 
-  r = interp(&example1);
+
+int main(void)
+{
+  int r;
+
+  r = test1();
   printf("return value = %d\n", r);
   // Expected outermost stdout:
   // A

@@ -1,0 +1,16 @@
+total 512
+-rwxr-xr-x 1 panrach1 cmsusers  16648 Jul 20 16:30 a.out
+-rw-r--r-- 1 panrach1 cmsusers   2377 Jul 20 15:01 byos.c
+-rw-r--r-- 1 panrach1 cmsusers   2265 Jul 18 21:49 byos copy.c
+-rw-r--r-- 1 panrach1 cmsusers    763 Jul 18 21:15 byos.h
+-rw-r--r-- 1 panrach1 cmsusers 130084 Jul 18 21:09 cscb09-2024-5-a3.pdf
+-rw-r--r-- 1 panrach1 cmsusers    643 Jul 18 23:16 fdtest.c
+-rw-r--r-- 1 panrach1 cmsusers      0 Jul 20 16:30 file4
+-rw-r--r-- 1 panrach1 cmsusers    214 Jul 20 14:49 silly
+-rw-r--r-- 1 panrach1 cmsusers   2972 Jul 20 16:30 simple-test.c
+-rw-r--r-- 1 panrach1 cmsusers     14 Jul 18 23:11 test1.txt
+-rw-r--r-- 1 panrach1 cmsusers     12 Jul 18 23:11 test2.txt
+-rw-r--r-- 1 panrach1 cmsusers    117 Jul 18 23:11 test3.txt
+-rw-r--r-- 1 panrach1 cmsusers   4123 Jul 18 23:11 tests.c
+B
+Y
