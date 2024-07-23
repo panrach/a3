@@ -59,7 +59,7 @@ int interp(const struct cmd *c) {
       // child exits and exit status is 127
       execvp(c->data.forx.pathname, c->data.forx.argv);
       perror("execvp");
-      exit(127);
+      _exit(127);
     } else if (pid > 0) {
       int status;
       waitpid(pid, &status, 0);
