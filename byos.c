@@ -69,7 +69,7 @@ int interp(const struct cmd *c) {
       }
       // If the child is killed by signal, the return value is 128+signal
       else if (WIFSIGNALED(status)) {
-        return_value = WEXITSTATUS(status) + 128;
+        return_value = WTERMSIG(status) + 128;
       }
     }
     break;
